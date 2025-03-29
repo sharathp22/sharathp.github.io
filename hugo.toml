@@ -1,0 +1,9 @@
+theme = "terminal"
+baseURL = "https://sharathp22.github.io/"  # Update later
+languageCode = "en-us"
+title = "SharathP - Resume"
+
+# Example theme-specific settings (adjust based on theme docs)
+[params]
+  author = "Sharath.P"
+  description = "Automation Engineer"
