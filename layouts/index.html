@@ -6,12 +6,12 @@
 <body>
     <main class="container">
         <header class="header">
-            <img src="/profile.jpg" alt="Profile Photo" class="profile">
+            <img src="/profile.jpg" alt="Profile" class="profile-img">
             <h1>{{ .Title }}</h1>
-            <div class="contact">
-                <div>{{ .Site.Params.email }}</div>
-                <div>{{ .Site.Params.phone }}</div>
-                <div>{{ .Site.Params.location }}</div>
+            <div class="contact-info">
+                <p>{{ .Site.Params.email }}</p>
+                <p>{{ .Site.Params.phone }}</p>
+                <p>{{ .Site.Params.location }}</p>
             </div>
         </header>
 

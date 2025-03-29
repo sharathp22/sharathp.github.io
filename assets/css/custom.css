@@ -1,78 +1,50 @@
 :root {
-    --primary: #2c3e50;
-    --secondary: #3498db;
-    --light: #ecf0f1;
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
 }
 
 body {
-    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 2rem;
-    color: var(--primary);
-}
-
-.container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 2rem;
 }
 
-.header {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.profile {
+.profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
+    display: block;
 }
 
-h1 {
-    color: var(--secondary);
-    margin: 0.5rem 0;
-}
-
-.contact {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+.contact-info {
+    text-align: center;
     margin: 1rem 0;
+    color: var(--primary-color);
 }
 
 .resume-content h2 {
-    color: var(--secondary);
-    border-bottom: 2px solid var(--secondary);
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.5rem;
 }
 
-.social {
+.social-links {
     margin-top: 2rem;
     text-align: center;
     padding: 1rem;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #eee;
 }
 
-.social a {
+.social-links a {
     margin: 0 1rem;
-    color: var(--primary);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
-.social a:hover {
-    color: var(--secondary);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    body {
-        padding: 1rem;
-    }
-    
-    .contact {
-        flex-direction: column;
-        align-items: center;
-    }
+.social-links a:hover {
+    color: var(--accent-color);
 }

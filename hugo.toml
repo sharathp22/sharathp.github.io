@@ -1,9 +1,11 @@
-theme = "terminal"
-baseURL = "https://sharathp22.github.io/"  # Update later
+baseURL = "https://sharathp.github.io/"
 languageCode = "en-us"
-title = "SharathP - Resume"
+title = "Sharath.P - Professional Resume"
+theme = ""
 
-# Example theme-specific settings (adjust based on theme docs)
 [params]
-  author = "Sharath.P"
-  description = "Automation Engineer"
+  email = "sharathp22@gmail.com"
+  phone = "+91 9743237944"
+  location = "India, IN"
+  github = "sharathp"
+  linkedin = "http://www.linkedin.com/in/sharathp22"
