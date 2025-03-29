@@ -3,4 +3,5 @@
 <title>{{ .Site.Title }}</title>
 
 {{ $css := resources.Get "css/custom.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $css.Permalink }}">
+<link rel="stylesheet" 
+      href="{{ with .Site.BaseURL }}{{ . }}{{ end }}{{ $css.RelPermalink }}">

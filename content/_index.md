@@ -1,20 +1,42 @@
+
 ---
-title: "John Doe"
-date: 2023-09-20
+title: "About Me"
+date: 2025-03-29
+draft: false
 ---
 
-## Professional Summary
-Full-stack developer with 5+ years experience...
+# Your Name
+## Professional Title
 
-## Technical Skills
-- **Languages**: JavaScript, Python, Go
-- **Frameworks**: React, Node.js, Hugo
-- **Tools**: Git, Docker, AWS
+Email: your.email@example.com  
+LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+GitHub: [github.com/yourusername](https://github.com/yourusername)
+
+---
+
+## Summary
+A passionate professional with expertise in [your field]. [Add a brief professional summary].
 
 ## Experience
-### Senior Developer @ TechCorp (2020-Present)
-- Led team of 5 developers
-- Built CI/CD pipelines
+
+### Company Name (YYYY-Present)
+**Position Title**
+- Accomplishment 1
+- Accomplishment 2
+- Accomplishment 3
+
+### Previous Company (YYYY-YYYY)
+**Position Title**
+- Accomplishment 1
+- Accomplishment 2
 
 ## Education
-B.S. Computer Science - MIT (2016-2020)
+
+**University Name** (YYYY-YYYY)  
+Degree in Field of Study
+
+## Skills
+- Skill 1
+- Skill 2
+- Skill 3
+- Skill 4
