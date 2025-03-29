@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     {{ partial "head.html" . }}
-  </head>
-  <body>
-    <div class="resume">
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
-    </div>
-  </body>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <img src="/profile.jpg" alt="Profile Photo" class="profile">
+            <h1>{{ .Title }}</h1>
+            <div class="contact">
+                <div>{{ .Site.Params.email }}</div>
+                <div>{{ .Site.Params.phone }}</div>
+                <div>{{ .Site.Params.location }}</div>
+            </div>
+        </header>
+
+        <article class="resume-content">
+            {{ .Content }}
+        </article>
+
+        {{ partial "footer.html" . }}
+    </main>
+</body>
 </html>
